@@ -1,5 +1,4 @@
 ovh
 python-dotenv
-influxdb_client
 argparse
 asyncio
