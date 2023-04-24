@@ -20,7 +20,8 @@ Alternatively you can build a docker container with the provided Dockerfile
 [[inputs.exec]]
    commands = ["python3 /usr/src/app/input-ovh-networkInterfaceController.py"]
    data_format = "influx"
-   interval = "3600s"
+   interval = "1h"
+   timeout = "600s"
 
 ```
 
