@@ -27,7 +27,7 @@ Alternatively you can build a docker container with the provided Dockerfile
 
 ## Sample output for one server
 ```
-$ python3 ./ovh-pci-cost.py 
+$ python3 ./input-ovh-networkInterfaceController.py 
 ovh-baremetal-network,server=ns1234567.ip-1-2-3.eu,linkType=public,mac=0c:c4:7b:c8:d1:bb traffic_upload=194122.666 1682322629000000000
 ovh-baremetal-network,server=ns1234567.ip-1-2-3.eu,linkType=public,mac=0c:c4:7b:c8:d1:bb traffic_upload=190864.893 1682323231000000000
 ovh-baremetal-network,server=ns1234567.ip-1-2-3.eu,linkType=public,mac=0c:c4:7b:c8:d1:bb traffic_upload=192740.64 1682323826000000000
