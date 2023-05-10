@@ -11,7 +11,8 @@ OVH_APP_KEY
 OVH_APP_SECRET
 OVH_CONSUMER_KEY
 ```
-Alternatively you can build a docker container with the provided Dockerfile
+These can be generated on [OVHcloud's portal](https://help.ovhcloud.com/csm/en-gb-api-getting-started-ovhcloud-api?id=kb_article_view&sysparm_article=KB0042784#advanced-usage-pair-ovhcloud-apis-with-an-application).
+If needed you can build a docker container with the provided Dockerfile.
 
 ## Configuration
 
