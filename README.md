@@ -61,3 +61,6 @@ ovh-baremetal-network,server=ns1234567.ip-1-2-3.eu,linkType=public,mac=0c:c4:7b:
 ovh-baremetal-network,server=ns1234567.ip-1-2-3.eu,linkType=public,mac=0c:c4:7b:c8:d1:bb packets_download=254.966 1682325031000000000
 
 ```
+## Dashboard
+A sample Grafana dashboard is present in the grafana-dashboard folder. It will graph result as below (with a dropdown menu of all available servers in your OVHcloud account) :  
+![alt screencapture](https://raw.githubusercontent.com/pcqnt/telegraf-input-ovhcloud-networkInterfacecontroller/main/grafana-dashboard/capture_grafana.png)
