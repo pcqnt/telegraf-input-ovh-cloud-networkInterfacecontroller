@@ -62,5 +62,14 @@ ovh-baremetal-network,server=ns1234567.ip-1-2-3.eu,linkType=public,mac=0c:c4:7b:
 
 ```
 ## Dashboard
-A sample Grafana dashboard is present in the grafana-dashboard folder. It will graph result as below (with a dropdown menu of all available servers in your OVHcloud account) :  
+A sample Grafana dashboard is present in the grafana-dashboard folder. It will query an Influxdbv2 database for results and graph result as below (with a dropdown menu of all available servers in your OVHcloud account) :  
 ![alt screencapture](https://raw.githubusercontent.com/pcqnt/telegraf-input-ovhcloud-networkInterfacecontroller/main/grafana-dashboard/capture_grafana.png)
+
+Influxdbv2 output configuration in telegraf : 
+```
+[[outputs.influxdb_v2]]
+   urls = ["http://influxdb:8086"]
+   token = "redacted"
+   organization = "ovh"
+   bucket = "network-poll"
+```
